@@ -1,7 +1,9 @@
 # **3D_PrEBo**
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Licence Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />
 
-This project is 3D printer expansion board. This board was designed for best compatibility with MKS GEN L, but is compatible for example with BIGTREETECH SKR 1.1.
+This project is 3D printer expansion board.  Add more fan controllers, TMC2130 wiring support, induction probe voltage convertor, LED lighting (supports WS1812).
+
+This board was designed for best compatibility with MKS GEN L, but is compatible for example with BIGTREETECH SKR 1.1.
 
 ### **Board features**
 
@@ -30,7 +32,7 @@ This project is 3D printer expansion board. This board was designed for best com
     - if motherboard didn't have enough pins, in Marlin 2.0, can be TMC2130 enabled via SPI, so EN pin for driver can be used as Chip select fro SPI
     
 - LED light
-    - means as print part lightning
+    - means as print part lighting
     - selectable voltage (5V or 12 V) by solder jumper
     
 
