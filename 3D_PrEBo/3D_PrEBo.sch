@@ -1,12 +1,13 @@
 EESchema Schematic File Version 4
+LIBS:3D_PrEBo-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
+Title "3D Printer expansion board"
+Date "2019-02-06"
+Rev "1.0"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -138,8 +139,8 @@ $Comp
 L Device:R R1
 U 1 1 5C5ABFEB
 P 5650 1750
-F 0 "R1" H 5720 1796 50  0000 L CNN
-F 1 "R" H 5720 1705 50  0000 L CNN
+F 0 "R1" H 5400 1800 50  0000 L CNN
+F 1 "82k" H 5400 1700 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 5580 1750 50  0001 C CNN
 F 3 "~" H 5650 1750 50  0001 C CNN
 	1    5650 1750
@@ -148,12 +149,12 @@ $EndComp
 $Comp
 L Device:R R4
 U 1 1 5C5ABFF2
-P 5650 2250
-F 0 "R4" H 5720 2296 50  0000 L CNN
-F 1 "R" H 5720 2205 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 5580 2250 50  0001 C CNN
-F 3 "~" H 5650 2250 50  0001 C CNN
-	1    5650 2250
+P 5650 2400
+F 0 "R4" H 5400 2450 50  0000 L CNN
+F 1 "10k" H 5400 2350 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5580 2400 50  0001 C CNN
+F 3 "~" H 5650 2400 50  0001 C CNN
+	1    5650 2400
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -254,20 +255,9 @@ Wire Wire Line
 Wire Wire Line
 	5100 2300 5100 2550
 Wire Wire Line
-	5650 2100 5650 2000
-Wire Wire Line
-	5650 2000 5350 2000
-Wire Wire Line
-	5350 2000 5350 1650
-Wire Wire Line
 	5350 1650 4900 1650
-Connection ~ 5650 2000
-Wire Wire Line
-	5650 2000 5650 1900
 Wire Wire Line
 	5650 1600 5650 1550
-Wire Wire Line
-	5650 2400 5650 2550
 $Comp
 L power:GND #PWR0106
 U 1 1 5C5AC039
@@ -549,7 +539,7 @@ Wire Wire Line
 Wire Wire Line
 	950  6050 950  6150
 Wire Wire Line
-	1350 5300 1350 5500
+	1350 5300 1350 5450
 Connection ~ 1350 5300
 $Comp
 L Motor:Fan_3pin M2
@@ -638,7 +628,7 @@ Wire Wire Line
 Wire Wire Line
 	2300 6050 2300 6150
 Wire Wire Line
-	2650 5300 2650 5500
+	2650 5300 2650 5450
 Connection ~ 2650 5300
 Wire Wire Line
 	850  5700 950  5700
@@ -776,7 +766,7 @@ Wire Wire Line
 Wire Wire Line
 	3600 6050 3600 6150
 Wire Wire Line
-	4000 5300 4000 5500
+	4000 5300 4000 5450
 Connection ~ 4000 5300
 $Comp
 L Motor:Fan_3pin M4
@@ -1376,26 +1366,26 @@ Connection ~ 2300 5700
 $Comp
 L Connector_Generic:Conn_01x04 J13
 U 1 1 5C784DB9
-P 4950 7350
-F 0 "J13" H 4850 6900 50  0000 C CNN
-F 1 "Conn_01x04" H 4850 7000 50  0000 C CNN
-F 2 "" H 4950 7350 50  0001 C CNN
-F 3 "~" H 4950 7350 50  0001 C CNN
-	1    4950 7350
+P 4950 6900
+F 0 "J13" H 4850 7200 50  0000 C CNN
+F 1 "Z_Probe" H 4850 7100 50  0000 C CNN
+F 2 "" H 4950 6900 50  0001 C CNN
+F 3 "~" H 4950 6900 50  0001 C CNN
+	1    4950 6900
 	-1   0    0    1   
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x03 J14
 U 1 1 5C78508D
-P 6300 7350
-F 0 "J14" H 6400 7400 50  0000 L CNN
-F 1 "Conn_01x03" H 6400 7300 50  0000 L CNN
-F 2 "" H 6300 7350 50  0001 C CNN
-F 3 "~" H 6300 7350 50  0001 C CNN
-	1    6300 7350
+P 6050 7150
+F 0 "J14" H 6150 7200 50  0000 L CNN
+F 1 "Z_MAX" H 6150 7100 50  0000 L CNN
+F 2 "" H 6050 7150 50  0001 C CNN
+F 3 "~" H 6050 7150 50  0001 C CNN
+	1    6050 7150
 	1    0    0    -1  
 $EndComp
-Text Notes 5350 6850 0    59   ~ 12
+Text Notes 5250 6800 0    59   ~ 12
 Inductive probe\n\n\n
 $Comp
 L Connector:RJ45 J2
@@ -1561,7 +1551,7 @@ Wire Wire Line
 	10450 3700 10450 3150
 Text Notes 5800 4450 0    71   ~ 14
 Fans
-Text Notes 3050 700  0    71   ~ 14
+Text Notes 3050 800  0    79   ~ 16
 Power
 Text Notes 9300 1000 0    71   ~ 14
 5in1
@@ -1838,7 +1828,7 @@ L Connector_Generic:Conn_01x03 J9
 U 1 1 5CBDB5A1
 P 6350 3800
 F 0 "J9" H 6250 3600 50  0000 L CNN
-F 1 "X_endstop" H 6150 3500 50  0000 L CNN
+F 1 "X_MIN" H 6150 3500 50  0000 L CNN
 F 2 "" H 6350 3800 50  0001 C CNN
 F 3 "~" H 6350 3800 50  0001 C CNN
 	1    6350 3800
@@ -2020,7 +2010,7 @@ L Connector:Screw_Terminal_01x06 J?
 U 1 1 5CE7F769
 P 4350 3450
 F 0 "J?" V 4350 3050 50  0000 R CNN
-F 1 "Screw_Terminal_01x06" V 4250 3050 50  0000 R CNN
+F 1 "Power_out" V 4250 3050 50  0000 R CNN
 F 2 "" H 4350 3450 50  0001 C CNN
 F 3 "~" H 4350 3450 50  0001 C CNN
 	1    4350 3450
@@ -2037,6 +2027,127 @@ Wire Wire Line
 	1000 1500 1350 1500
 Wire Wire Line
 	1500 1300 1750 1300
-Text Notes 5550 7400 0    59   ~ 12
-TODO
+$Comp
+L power:+24V #PWR?
+U 1 1 5C5C5730
+P 5150 6700
+F 0 "#PWR?" H 5150 6550 50  0001 C CNN
+F 1 "+24V" V 5100 6800 50  0000 L CNN
+F 2 "" H 5150 6700 50  0001 C CNN
+F 3 "" H 5150 6700 50  0001 C CNN
+	1    5150 6700
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5C5C5890
+P 5150 6800
+F 0 "#PWR?" H 5150 6550 50  0001 C CNN
+F 1 "GND" V 5200 6700 50  0000 R CNN
+F 2 "" H 5150 6800 50  0001 C CNN
+F 3 "" H 5150 6800 50  0001 C CNN
+	1    5150 6800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C5C5B28
+P 5400 7050
+F 0 "R?" H 5300 6950 50  0000 R CNN
+F 1 "100k" H 5300 7050 50  0000 R CNN
+F 2 "" V 5330 7050 50  0001 C CNN
+F 3 "~" H 5400 7050 50  0001 C CNN
+	1    5400 7050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C5DA2B6
+P 5400 7450
+F 0 "R?" H 5300 7350 50  0000 R CNN
+F 1 "27k" H 5300 7450 50  0000 R CNN
+F 2 "" V 5330 7450 50  0001 C CNN
+F 3 "~" H 5400 7450 50  0001 C CNN
+	1    5400 7450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5400 6900 5150 6900
+$Comp
+L power:GND #PWR?
+U 1 1 5C6418C9
+P 5400 7600
+F 0 "#PWR?" H 5400 7350 50  0001 C CNN
+F 1 "GND" H 5550 7550 50  0000 C CNN
+F 2 "" H 5400 7600 50  0001 C CNN
+F 3 "" H 5400 7600 50  0001 C CNN
+	1    5400 7600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 7200 5400 7250
+Wire Wire Line
+	5400 7250 5850 7250
+Connection ~ 5400 7250
+Wire Wire Line
+	5400 7250 5400 7300
+$Comp
+L power:GND #PWR?
+U 1 1 5C71260A
+P 5850 7150
+F 0 "#PWR?" H 5850 6900 50  0001 C CNN
+F 1 "GND" V 5850 7000 50  0000 R CNN
+F 2 "" H 5850 7150 50  0001 C CNN
+F 3 "" H 5850 7150 50  0001 C CNN
+	1    5850 7150
+	0    1    1    0   
+$EndComp
+Text GLabel 1450 5450 2    59   Input ~ 0
+FAN0_PWR
+Wire Wire Line
+	1450 5450 1350 5450
+Connection ~ 1350 5450
+Wire Wire Line
+	1350 5450 1350 5500
+Text GLabel 2750 5450 2    59   Input ~ 0
+FAN1_PWR
+Wire Wire Line
+	2750 5450 2650 5450
+Connection ~ 2650 5450
+Wire Wire Line
+	2650 5450 2650 5500
+Text GLabel 4100 5450 2    59   Input ~ 0
+FAN2_PWR
+Wire Wire Line
+	4100 5450 4000 5450
+Connection ~ 4000 5450
+Wire Wire Line
+	4000 5450 4000 5500
+Wire Wire Line
+	5650 2250 5350 2250
+Wire Wire Line
+	5350 1650 5350 2250
+Wire Wire Line
+	5650 1900 5650 1950
+Connection ~ 5650 2250
+$Comp
+L Device:R_POT RV?
+U 1 1 5C76DB12
+P 5650 2100
+F 0 "RV?" H 5550 2150 50  0000 R CNN
+F 1 "10k" H 5550 2050 50  0000 R CNN
+F 2 "" H 5650 2100 50  0001 C CNN
+F 3 "~" H 5650 2100 50  0001 C CNN
+	1    5650 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5650 1950 5800 1950
+Wire Wire Line
+	5800 1950 5800 2100
+Connection ~ 5650 1950
+Text GLabel 1000 4100 0    50   Input ~ 0
+LED_IN
+Wire Wire Line
+	1000 4100 1150 4100
 $EndSCHEMATC
