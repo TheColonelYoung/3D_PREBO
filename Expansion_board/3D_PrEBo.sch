@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:3D_PrEBo-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -2135,7 +2136,7 @@ U 1 1 5C76DB12
 P 5650 2100
 F 0 "RV1" H 5550 2150 50  0000 R CNN
 F 1 "10k" H 5550 2050 50  0000 R CNN
-F 2 "" H 5650 2100 50  0001 C CNN
+F 2 "Potentiometer_SMD:Potentiometer_Bourns_3214J_Horizontal" H 5650 2100 50  0001 C CNN
 F 3 "~" H 5650 2100 50  0001 C CNN
 	1    5650 2100
 	1    0    0    -1  
