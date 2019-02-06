@@ -6,13 +6,13 @@ This project is 3D printer expansion board. This board was designed for best com
 ### **Board features**
 
 - Stepdown regulator - from up to 35V to 12V
-    - can by bypassed by jumper, if you have 12V power supply
+    - can by bypassed by jumper, if you have 12V power supply by solder jumper
     - minimal volatage for regulator is 15V
-    - based on L5973D
+    - based on L5973D (up to 2A)
 
 - Advanced fan controll
     - you can controll up to 8 fans
-    - 1 fan is 4 pin, others are 3 pins with additional transistor
+    - 1 fan is 4 pin, others are 3 pin with additional transistor
     - speed input for fan is from motherboard (EXP_X connectors)
     - one of fans can be used as regulated fan for hotend cooling (temperature dependent cooling)
     - Fan voltage can be selected from , Vin, 12V, 5V via solder bridges
@@ -25,16 +25,21 @@ This project is 3D printer expansion board. This board was designed for best com
 
 - TMC2130 wiring
     - helps to keep wiring simple and clean
+    - holes in board for simple wiring and better airflow around cables
+    - 4 pin connectors
     - if motherboard didn't have enough pins, in Marlin 2.0, can be TMC2130 enabled via SPI, so EN pin for driver can be used as Chip select fro SPI
+    
+- LED light
+    - means as print part lightning
+    - selectable voltage (5V or 12 V) by solder jumper
+    
 
-- 6 in one connector
-    - Onboard RJ45 connectors
+- 5 in one connector
+    - Onboard RJ-45 connectors and UTP cable (8-wires)
     - As HUB is used second board mounted on printer head
     - Fans, Led outputs and both outputs (6in1 and separe)
     - Pins:
-        - 1x GND & 1x 5V
+        - 1x GND, 1x 12V,
         - 3x FAN
-        - 1x LED output
         - 1x X Endstop (or 5V Z probe if on hat isn't X endstop)
-        - 1x Temperature sensor
-    - Only cables outside of this are Heater and Inductive probe
+        - 2x LED lights 
