@@ -2024,20 +2024,9 @@ Wire Wire Line
 Wire Wire Line
 	1250 1600 1250 2550
 Wire Wire Line
-	1000 1500 1350 1500
+	1000 1500 1250 1500
 Wire Wire Line
 	1500 1300 1750 1300
-$Comp
-L power:+24V #PWR042
-U 1 1 5C5C5730
-P 5550 6700
-F 0 "#PWR042" H 5550 6550 50  0001 C CNN
-F 1 "+24V" V 5500 6800 50  0000 L CNN
-F 2 "" H 5550 6700 50  0001 C CNN
-F 3 "" H 5550 6700 50  0001 C CNN
-	1    5550 6700
-	0    1    1    0   
-$EndComp
 $Comp
 L power:GND #PWR043
 U 1 1 5C5C5890
@@ -2150,4 +2139,15 @@ Text GLabel 3000 4100 0    50   Input ~ 0
 LED_IN
 Wire Wire Line
 	3000 4100 3150 4100
+Text GLabel 5800 6700 2    50   Input ~ 0
+V_IN
+Wire Wire Line
+	5800 6700 5550 6700
+Text GLabel 1250 1350 1    50   Input ~ 0
+V_IN
+Wire Wire Line
+	1250 1350 1250 1500
+Connection ~ 1250 1500
+Wire Wire Line
+	1250 1500 1350 1500
 $EndSCHEMATC
