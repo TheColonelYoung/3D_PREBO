@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:3D_PrEBo-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -449,7 +450,7 @@ U 1 1 5C5CC3A4
 P 1350 5000
 F 0 "M1" H 1508 4996 50  0000 L CNN
 F 1 "Fan_3pin" H 1508 4905 50  0000 L CNN
-F 2 "Connector:FanPinHeader_1x03_P2.54mm_Vertical" H 1350 4910 50  0001 C CNN
+F 2 "Connector_JST:JST_XH_S03B-XH-A_1x03_P2.50mm_Horizontal" H 1350 4910 50  0001 C CNN
 F 3 "http://www.hardwarecanucks.com/forum/attachments/new-builds/16287d1330775095-help-chassis-power-fan-connectors-motherboard-asus_p8z68.jpg" H 1350 4910 50  0001 C CNN
 	1    1350 5000
 	1    0    0    -1  
@@ -546,7 +547,7 @@ U 1 1 5C5F9432
 P 2650 5000
 F 0 "M2" H 2808 4996 50  0000 L CNN
 F 1 "Fan_3pin" H 2808 4905 50  0000 L CNN
-F 2 "Connector:FanPinHeader_1x03_P2.54mm_Vertical" H 2650 4910 50  0001 C CNN
+F 2 "Connector_JST:JST_XH_S03B-XH-A_1x03_P2.50mm_Horizontal" H 2650 4910 50  0001 C CNN
 F 3 "http://www.hardwarecanucks.com/forum/attachments/new-builds/16287d1330775095-help-chassis-power-fan-connectors-motherboard-asus_p8z68.jpg" H 2650 4910 50  0001 C CNN
 	1    2650 5000
 	1    0    0    -1  
@@ -676,7 +677,7 @@ U 1 1 5C61B735
 P 4000 5000
 F 0 "M3" H 4158 4996 50  0000 L CNN
 F 1 "Fan_3pin" H 4158 4905 50  0000 L CNN
-F 2 "Connector:FanPinHeader_1x03_P2.54mm_Vertical" H 4000 4910 50  0001 C CNN
+F 2 "Connector_JST:JST_XH_S03B-XH-A_1x03_P2.50mm_Horizontal" H 4000 4910 50  0001 C CNN
 F 3 "http://www.hardwarecanucks.com/forum/attachments/new-builds/16287d1330775095-help-chassis-power-fan-connectors-motherboard-asus_p8z68.jpg" H 4000 4910 50  0001 C CNN
 	1    4000 5000
 	1    0    0    -1  
@@ -773,7 +774,7 @@ U 1 1 5C61B76A
 P 5350 5000
 F 0 "M4" H 5508 4996 50  0000 L CNN
 F 1 "Fan_3pin" H 5508 4905 50  0000 L CNN
-F 2 "Connector:FanPinHeader_1x03_P2.54mm_Vertical" H 5350 4910 50  0001 C CNN
+F 2 "Connector_JST:JST_XH_S03B-XH-A_1x03_P2.50mm_Horizontal" H 5350 4910 50  0001 C CNN
 F 3 "http://www.hardwarecanucks.com/forum/attachments/new-builds/16287d1330775095-help-chassis-power-fan-connectors-motherboard-asus_p8z68.jpg" H 5350 4910 50  0001 C CNN
 	1    5350 5000
 	1    0    0    -1  
@@ -869,7 +870,7 @@ U 1 1 5C62C770
 P 6700 5000
 F 0 "M5" H 6858 4996 50  0000 L CNN
 F 1 "Fan_3pin" H 6858 4905 50  0000 L CNN
-F 2 "Connector:FanPinHeader_1x03_P2.54mm_Vertical" H 6700 4910 50  0001 C CNN
+F 2 "Connector_JST:JST_XH_S03B-XH-A_1x03_P2.50mm_Horizontal" H 6700 4910 50  0001 C CNN
 F 3 "http://www.hardwarecanucks.com/forum/attachments/new-builds/16287d1330775095-help-chassis-power-fan-connectors-motherboard-asus_p8z68.jpg" H 6700 4910 50  0001 C CNN
 	1    6700 5000
 	1    0    0    -1  
@@ -966,7 +967,7 @@ U 1 1 5C62C7A5
 P 8050 5000
 F 0 "M6" H 8208 4996 50  0000 L CNN
 F 1 "Fan_3pin" H 8208 4905 50  0000 L CNN
-F 2 "Connector:FanPinHeader_1x03_P2.54mm_Vertical" H 8050 4910 50  0001 C CNN
+F 2 "Connector_JST:JST_XH_S03B-XH-A_1x03_P2.50mm_Horizontal" H 8050 4910 50  0001 C CNN
 F 3 "http://www.hardwarecanucks.com/forum/attachments/new-builds/16287d1330775095-help-chassis-power-fan-connectors-motherboard-asus_p8z68.jpg" H 8050 4910 50  0001 C CNN
 	1    8050 5000
 	1    0    0    -1  
@@ -1069,7 +1070,7 @@ U 1 1 5C648336
 P 9400 5000
 F 0 "M7" H 9558 4996 50  0000 L CNN
 F 1 "Fan_3pin" H 9558 4905 50  0000 L CNN
-F 2 "Connector:FanPinHeader_1x03_P2.54mm_Vertical" H 9400 4910 50  0001 C CNN
+F 2 "Connector_JST:JST_XH_S03B-XH-A_1x03_P2.50mm_Horizontal" H 9400 4910 50  0001 C CNN
 F 3 "http://www.hardwarecanucks.com/forum/attachments/new-builds/16287d1330775095-help-chassis-power-fan-connectors-motherboard-asus_p8z68.jpg" H 9400 4910 50  0001 C CNN
 	1    9400 5000
 	1    0    0    -1  
@@ -1175,7 +1176,7 @@ U 1 1 5C695EB3
 P 11000 5000
 F 0 "M8" H 10650 5300 50  0000 L CNN
 F 1 "Fan_4pin" H 10650 5200 50  0000 L CNN
-F 2 "Connector:FanPinHeader_1x04_P2.54mm_Vertical" H 11000 5010 50  0001 C CNN
+F 2 "Connector_JST:JST_XH_S04B-XH-A_1x04_P2.50mm_Horizontal" H 11000 5010 50  0001 C CNN
 F 3 "http://www.formfactors.org/developer%5Cspecs%5Crev1_2_public.pdf" H 11000 5010 50  0001 C CNN
 	1    11000 5000
 	1    0    0    -1  
@@ -1368,7 +1369,7 @@ U 1 1 5C784DB9
 P 5350 6900
 F 0 "J12" H 5250 7200 50  0000 C CNN
 F 1 "Z_Probe" H 5250 7100 50  0000 C CNN
-F 2 "Connector:FanPinHeader_1x04_P2.54mm_Vertical" H 5350 6900 50  0001 C CNN
+F 2 "Connector_JST:JST_XH_B04B-XH-A_1x04_P2.50mm_Vertical" H 5350 6900 50  0001 C CNN
 F 3 "~" H 5350 6900 50  0001 C CNN
 	1    5350 6900
 	-1   0    0    1   
@@ -1599,7 +1600,7 @@ U 1 1 5CA1652E
 P 7700 1500
 F 0 "J1" H 7700 1200 50  0000 C CNN
 F 1 "LED" H 7700 1300 50  0000 C CNN
-F 2 "Connector_JST:JST_XH_S02B-XH-A-1_1x02_P2.50mm_Horizontal" H 7700 1500 50  0001 C CNN
+F 2 "Connector_JST:JST_XH_B02B-XH-A_1x02_P2.50mm_Vertical" H 7700 1500 50  0001 C CNN
 F 3 "~" H 7700 1500 50  0001 C CNN
 	1    7700 1500
 	-1   0    0    1   
@@ -2135,7 +2136,7 @@ U 1 1 5C76DB12
 P 5650 2100
 F 0 "RV1" H 5550 2150 50  0000 R CNN
 F 1 "10k" H 5550 2050 50  0000 R CNN
-F 2 "" H 5650 2100 50  0001 C CNN
+F 2 "Potentiometer_SMD:Potentiometer_Bourns_3214J_Horizontal" H 5650 2100 50  0001 C CNN
 F 3 "~" H 5650 2100 50  0001 C CNN
 	1    5650 2100
 	1    0    0    -1  
