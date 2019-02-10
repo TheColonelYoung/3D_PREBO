@@ -163,7 +163,7 @@ U 1 1 5C5ABFF9
 P 5400 1550
 F 0 "L1" V 5590 1550 50  0000 C CNN
 F 1 "15uH" V 5499 1550 50  0000 C CNN
-F 2 "Inductor_SMD:L_Bourns_SRR1260" H 5400 1550 50  0001 C CNN
+F 2 "Inductor_SMD:L_Neosid_Ms85" H 5400 1550 50  0001 C CNN
 F 3 "~" H 5400 1550 50  0001 C CNN
 	1    5400 1550
 	0    -1   -1   0   
@@ -1853,25 +1853,25 @@ Text GLabel 4250 7100 0    59   Input ~ 0
 X-endstop
 Wire Wire Line
 	4250 7100 4600 7100
-Text GLabel 3000 3700 0    50   Input ~ 0
+Text GLabel 3000 4100 0    50   Input ~ 0
 FAN0
-Text GLabel 3800 3700 2    50   Input ~ 0
+Text GLabel 3000 4000 0    50   Input ~ 0
 FAN1
 Wire Wire Line
 	3000 3700 3150 3700
 Wire Wire Line
 	3650 3700 3800 3700
-Text GLabel 3000 3800 0    50   Input ~ 0
-FAN2
-Text GLabel 3800 3800 2    50   Input ~ 0
-FAN3
 Text GLabel 3000 3900 0    50   Input ~ 0
+FAN2
+Text GLabel 3000 3800 0    50   Input ~ 0
+FAN3
+Text GLabel 3000 3700 0    50   Input ~ 0
 FAN4
-Text GLabel 3800 3900 2    50   Input ~ 0
+Text GLabel 3800 3700 2    50   Input ~ 0
 FAN5
-Text GLabel 3000 4000 0    50   Input ~ 0
+Text GLabel 3800 3800 2    50   Input ~ 0
 FAN6
-Text GLabel 3800 4000 2    50   Input ~ 0
+Text GLabel 3800 3900 2    50   Input ~ 0
 FAN7
 $Comp
 L Connector_Generic:Conn_02x05_Odd_Even J9
@@ -1937,15 +1937,15 @@ Wire Wire Line
 	4550 3900 4700 3900
 Wire Wire Line
 	4700 4100 4550 4100
-Text GLabel 5350 3700 2    50   Input ~ 0
+Text GLabel 5350 4100 2    50   Input ~ 0
 CS_X
-Text GLabel 5350 3800 2    50   Input ~ 0
+Text GLabel 5350 4000 2    50   Input ~ 0
 CS_Y
 Text GLabel 5350 3900 2    50   Input ~ 0
 CS_Z
-Text GLabel 5350 4000 2    50   Input ~ 0
+Text GLabel 5350 3800 2    50   Input ~ 0
 CS_E0
-Text GLabel 5350 4100 2    50   Input ~ 0
+Text GLabel 5350 3700 2    50   Input ~ 0
 CS_E1
 Wire Wire Line
 	5200 3700 5350 3700
@@ -2135,7 +2135,7 @@ Wire Wire Line
 Wire Wire Line
 	5800 1950 5800 2100
 Connection ~ 5650 1950
-Text GLabel 3000 4100 0    50   Input ~ 0
+Text GLabel 3800 4000 2    50   Input ~ 0
 LED_IN
 Wire Wire Line
 	3000 4100 3150 4100
